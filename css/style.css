@@ -74,4 +74,45 @@ h2 {
 ul {
     list-style: none;
     padding-inline-start: 0px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* .task {
+    font-size: 16px;
+} */
+.label-b {
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(27, 152, 230);
+}
+
+.tick {
+    height: 25px;
+    width: 25px;
+    color: #62c0a8;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid #62c0a8;
+    padding: 3px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.cross {
+    height: 25px;
+    width: 25px;
+    color: #ce332e;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid #ce332e;
+    padding: 3px;
+    border-radius: 50%;
+    padding-left: 5px;
 }
