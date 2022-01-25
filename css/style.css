@@ -81,9 +81,6 @@ li {
     margin-bottom: 20px;
 }
 
-/* .task {
-    font-size: 16px;
-} */
 .label-b {
     padding: 7px;
     border-radius: 15px;
@@ -91,6 +88,26 @@ li {
     font-weight: 700;
     color: white;
     background-color: rgb(27, 152, 230);
+}
+
+.label-v {
+    background-color: rgb(166, 57, 245);
+}
+
+.label-g {
+    background-color: green;
+}
+
+.label-o {
+    background-color: orange;
+}
+
+.label-p {
+    background-color: pink;
+}
+
+.label-y {
+    background-color: yellow;
 }
 
 .tick {
