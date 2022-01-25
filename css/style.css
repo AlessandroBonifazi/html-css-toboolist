@@ -2,7 +2,6 @@ body {
     margin: 0px;
     height: 100%;
     background-color: rgb(221, 242, 255)
-    
 }
 
 header {
@@ -16,8 +15,7 @@ main {
     height: 700px;
     background-color: white;
     border-radius: 8px;
-    margin: 50px auto;
-    
+    margin: 50px auto;    
 }
 
 section {
@@ -72,7 +70,7 @@ section {
 h2 {
     display: inline-block;
     margin-bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
 }
 
 ul {
@@ -86,7 +84,7 @@ li {
 }
 
 .task {
-    font-family: Arial;
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
 }
 
