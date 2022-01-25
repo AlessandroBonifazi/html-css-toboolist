@@ -17,6 +17,11 @@ main {
     
 }
 
+section {
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
 #logo {
     vertical-align: middle;
     margin-left: 20px;
@@ -42,7 +47,6 @@ main {
 }
 
 .button {
-    
     vertical-align: middle;
     background-color: rgb(27, 152, 230);
     color: white;
@@ -51,6 +55,7 @@ main {
     padding: 8px;
     text-align: center;
     font-size: 12px;
+    font-weight: 600;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -59,4 +64,14 @@ main {
     background-color: white;
     color: rgb(145, 145, 145);
     border: 2px solid rgb(145, 145, 145);
+}
+
+h2 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
 }
