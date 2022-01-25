@@ -1,11 +1,20 @@
 body {
+    margin: 0px;
     background-color: rgb(221, 242, 255)
+    
 }
 
 header {
     height: 80px;
     background-color: white;
     box-sizing: border-box;
+}
+
+main {
+    width: 60%;
+    background-color: white;
+    margin: 50px auto;
+    
 }
 
 #logo {
@@ -20,5 +29,34 @@ header {
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
+}
+
+#toolbar {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(221, 242, 255);
+}
+
+.button {
     
+    vertical-align: middle;
+    background-color: rgb(27, 152, 230);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(145, 145, 145);
+    border: 2px solid rgb(145, 145, 145);
 }
