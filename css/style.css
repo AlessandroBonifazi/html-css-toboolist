@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    height: 100%;
     background-color: rgb(221, 242, 255)
     
 }
@@ -12,7 +13,9 @@ header {
 
 main {
     width: 60%;
+    height: 700px;
     background-color: white;
+    border-radius: 8px;
     margin: 50px auto;
     
 }
@@ -69,6 +72,7 @@ section {
 h2 {
     display: inline-block;
     margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul {
@@ -81,21 +85,27 @@ li {
     margin-bottom: 20px;
 }
 
+.task {
+    font-family: Arial;
+    font-size: 18px;
+}
+
 .label-b {
     padding: 7px;
-    border-radius: 15px;
+    border-radius: 12px;
     font-size: 11px;
+    font-family: Verdana;
     font-weight: 700;
     color: white;
     background-color: rgb(27, 152, 230);
 }
 
 .label-v {
-    background-color: rgb(166, 57, 245);
+    background-color: rgb(193, 111, 252);
 }
 
 .label-g {
-    background-color: green;
+    background-color: rgb(132, 207, 132);
 }
 
 .label-o {
@@ -103,11 +113,11 @@ li {
 }
 
 .label-p {
-    background-color: pink;
+    background-color: rgb(235, 168, 179);
 }
 
 .label-y {
-    background-color: yellow;
+    background-color: rgb(197, 197, 29);
 }
 
 .tick {
@@ -125,7 +135,7 @@ li {
 .cross {
     height: 25px;
     width: 25px;
-    color: #ce332e;
+    color: #f5524d;
     font-size: 11px;
     font-weight: bold;
     border: 2px solid #ce332e;
