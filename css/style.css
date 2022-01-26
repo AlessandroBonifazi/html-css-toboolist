@@ -73,6 +73,12 @@ h2 {
     font-family: 'Oswald', sans-serif;
 }
 
+h2::before {
+    content: "\25E2";
+    font-size: 15px;
+    margin-right: 7px;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0px;
